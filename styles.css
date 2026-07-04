@@ -4,18 +4,18 @@
    ================================================================= */
 
 :root{
-  --ink:        #0e0d0c;
-  --ink-soft:   #17150f;
-  --ink-warm:   #1a1510;
-  --ink-cool:   #100f12;
-  --ink-blue:   #0d0e12;
-  --cream:      #f4efe4;
-  --cream-dim:  #cdc6b6;
-  --gold:       #c9a768;
-  --gold-soft:  #e8d9b3;
-  --gold-dim:   rgba(201,167,104,0.35);
-  --line:       rgba(244,239,228,0.16);
-  --overlay:    rgba(9,8,6,0.55);
+  --ink:        #0a0c14;
+  --ink-soft:   #0f111c;
+  --ink-warm:   #0d1120;
+  --ink-cool:   #080a16;
+  --ink-blue:   #0c1020;
+  --cream:      #edf2f9;
+  --cream-dim:  #a8bccf;
+  --gold:       #7ab0d8;
+  --gold-soft:  #b8d8ed;
+  --gold-dim:   rgba(122,176,216,0.35);
+  --line:       rgba(237,242,249,0.12);
+  --overlay:    rgba(6,8,18,0.6);
 
   --font-script: 'Parisienne', cursive;
   --font-serif:  'Cormorant Garamond', serif;
@@ -159,7 +159,7 @@ section.section{
   opacity: 1;
   transform: scale(1);
 }
-.deco-ornament circle{ fill: #c9a768; }
+.deco-ornament circle{ fill: #7ab0d8; }
 .deco-ornament--tl{ top: clamp(8px, 2vh, 20px); left: clamp(8px, 2vw, 20px); }
 .deco-ornament--tr{ top: clamp(8px, 2vh, 20px); right: clamp(8px, 2vw, 20px); }
 .deco-ornament--bl{ bottom: clamp(8px, 2vh, 20px); left: clamp(8px, 2vw, 20px); }
@@ -229,7 +229,7 @@ section.section{
 }
 .hero__overlay{
   position: absolute; inset: 0;
-  background: linear-gradient(180deg, rgba(9,8,6,.35) 0%, rgba(9,8,6,.35) 40%, rgba(9,8,6,.85) 100%);
+  background: linear-gradient(180deg, rgba(6,8,18,.35) 0%, rgba(6,8,18,.35) 40%, rgba(6,8,18,.85) 100%);
 }
 .hero__content{
   position: relative; z-index: 1;
@@ -330,7 +330,7 @@ section.section{
   padding: 2rem 1.6rem;
   border: 1px solid var(--line);
   border-radius: 6px;
-  background: linear-gradient(180deg, rgba(201,167,104,.04), transparent);
+  background: linear-gradient(180deg, rgba(122,176,216,.04), transparent);
   transition: transform var(--dur-fast) var(--ease-soft), border-color var(--dur-fast) var(--ease-soft);
 }
 .padrinos__group:hover{ transform: translateY(-4px); border-color: var(--gold-dim); }
@@ -464,7 +464,7 @@ section.section{
   padding: 2.4rem 1.8rem;
   border: 1px solid var(--line);
   border-radius: 6px;
-  background: linear-gradient(180deg, rgba(201,167,104,.03), transparent);
+  background: linear-gradient(180deg, rgba(122,176,216,.03), transparent);
   transition: transform var(--dur-fast) var(--ease-soft), border-color var(--dur-fast) var(--ease-soft);
 }
 .card:hover{ transform: translateY(-6px); border-color: var(--gold-dim); }
@@ -655,4 +655,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   }
   [data-reveal]{ filter: none; transform: none; opacity: 1; }
   .padrinos__prayer-img{ animation: none; opacity: .6; }
+}
+
+.mas-grande{
+  font-size: 2.5em;
 }

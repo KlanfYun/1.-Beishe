@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
      ✏️ EDITAR: cambia la fecha/hora exacta de la boda aquí.
      Formato: 'AAAA-MM-DDTHH:MM:SS' (hora local del evento)
      --------------------------------------------------------------- */
-  const WEDDING_DATE = new Date('2026-06-22T15:30:00');
+  const WEDDING_DATE = new Date('2026-10-09T14:00:00');
 
   const els = {
     days: document.getElementById('cd-days'),
