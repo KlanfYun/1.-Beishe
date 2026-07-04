@@ -275,9 +275,9 @@
   </div>
 
   <div class="venue__content">
-    <p class="eyebrow reveal" data-reveal>The Venue</p>
-    <h2 class="script script--lg reveal" data-reveal data-reveal-delay="1">Oakhaven Castle</h2>
-    <p class="mas-grande venue__address reveal" data-reveal data-reveal-delay="2">Rancho de los Padres, Propiedad, Casa de la Familia Salgado Garcia</p>
+    <p class="eyebrow reveal" data-reveal>Casa de la Familia</p>
+    <h2 class="script script--lg reveal" data-reveal data-reveal-delay="1">Salgado Garcia</h2>
+    <p class="mas-grande venue__address reveal" data-reveal data-reveal-delay="2">Rancho de los Padres, Propiedad</p>
 
     <a class="btn reveal" data-reveal data-reveal-delay="3" href="https://maps.google.com" target="_blank" rel="noopener">
       Ver en Google Maps
@@ -321,17 +321,6 @@
        src="https://ejemplo.com/cancion.mp3"
      ============================================================ -->
 <audio id="bg-music" src="Ordinary_Wedding_Sax_Version_The_Wedding_Sax_by_Manu_López_320.mp3" autoplay loop playsinline></audio>
-
-<script>
-  document.addEventListener('click', () => {
-    const audio = document.getElementById('bg-music');
-    if (audio && audio.paused && audio.src) {
-      audio.volume = 0.3;
-      audio.play().catch(() => {});
-    }
-  }, { once: true });
-</script>
-
 <script src="script.js"></script>
 </body>
 </html>
